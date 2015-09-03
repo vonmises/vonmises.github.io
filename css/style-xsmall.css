@@ -1,0 +1,44 @@
+/*
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Basic */
+
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 1.25em 1em 1.25em;
+	}
+
+/* Banner */
+
+	#banner .content {
+		padding: 3em 1.5625em 5.25em 1.5625em;
+	}
+
+/* Footer */
+
+	#footer {
+		padding: 3em 1.25em;
+	}
+
+		#footer .copyright {
+			line-height: inherit;
+		}
+
+			#footer .copyright li {
+				border-left: 0;
+				display: block;
+				margin: 0;
+				padding: 0;
+			}

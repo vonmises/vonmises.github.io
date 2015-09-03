@@ -4,28 +4,19 @@
     <title>vonmises</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="a personal website" />
-    <noscript>
-        <link rel="stylesheet" href="css/style.css" />
-    </noscript>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/init.js"></script>
 </head>
 <body>
-
-    <header id="header" >
+    <header id="header">
         <h1 id="logo">about me</h1>
-        <!-- <nav>
-            <ul>
-                <li>about</li>
-                <li>contact</li>
-                <li>something</li>
-                <li>here</li>
-            </ul>
-        </nav> -->
     </header>
 
-    <div id="main" >
+    <div id="main" class="wrapper style1">
         <div class="container">
-            <header>
-                <img src="images/andrew.jpg"> <br/>
+            <header class="major">
+                <p><img src="images/andrew.jpg"></p>
             </header>
 
             <section>
@@ -35,17 +26,21 @@
                     to other languages and platforms. My current interests are python, machine learning,
                     data science, and mobile applications.
                 </p>
-                <hr/>
-                    Content and styling is coming...
+                <p>
+                    Beyond programming and information technology, I'm interested in economics, physics, mathematics, logic, and&mdash;in some sense&mdash;sociology. I'm curious about everything, though, but these are some of the things I try to learn more about on my own time and with my own effort.
+                </p>
+                <blockquote>
+                    No computer has ever been designed that is aware of what it's doing;
+                    but most of the time, we aren't either. &mdash; Marvin Minsky
+                </blockquote>
             </section>
+
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; <script>document.writeln(new Date().getFullYear());</script></li>
+                </ul>
+            </footer>
+            </div>
         </div>
-    </div>
-
-    <hr/>
-
-    <footer id="footer">
-        &copy;
-        <script>document.writeln(new Date().getFullYear());</script>
-    </footer>
 </body>
 </html>
