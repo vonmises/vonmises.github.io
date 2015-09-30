@@ -22,11 +22,11 @@ My problem is that the "stop" doesn't quite mean what one might think it means. 
 "start" means: start from the value/position I indicate, "stop" means: stop at the 
 value/position I indicate--*__minus one__*. 
 
-```python
+<pre>
 numbers = range(10)
 for i in numbers: print(i) # will print 0 to 9
 for i in numbers[3:5]: print(i) # 3 4
-```
+</pre>
 
 One of the things that influenced the breaking changes in Python 3, I heard, was to get
 rid of inconsistencies and quirks. It's certainly inconsistent for the "start" and "stop"
