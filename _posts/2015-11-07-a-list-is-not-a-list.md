@@ -80,6 +80,6 @@ The running time increases quadratically(n&sup2;) for the slow method and linear
 
 So, now you know what's in a name. Just because collection types tend to behave the same way, does not mean you shouldn't know how they work under the covers. It's more than just "nice to know" how they are implemented as it can mean the difference between bringing your app or server to its knees with such simple, well-meaning logic, or having an efficient system humming along quietly.
 
-Read, also, about how sorting and searching algorithms can be affected by your choice of data structures. There's a reason those two topics are taught hand-in-hand.
+Read, also, about how sorting and searching algorithms can be affected by your choice of data structures. There's a reason those two topics are taught side-by-side.
 
 (For your benchmarking purposes, there's a module called <code>timeit</code> you might want to read about. Quick and dirty was good enough for this demo.)
