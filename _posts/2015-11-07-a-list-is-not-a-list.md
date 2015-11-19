@@ -19,7 +19,7 @@ But with an array, in order to put something at the head, you have to either mov
 
 The following are two examples of adding a sequence of integers to a list and ensuring that they are arranged in order of the most recent insertions first (stack-like). The first one appends integers to the list and reverses the order, while the second one inserts the integers at the beginning so that they are ordered from the most recent insertion onwards.
 
-```python
+<pre>
 import time
 
 count = 10**5
@@ -46,7 +46,7 @@ for i in range(count):
 elapsed = time.time() - start
 
 print("insert -> ", elapsed)
-```
+</pre>
 
 Unfortunately for you, there's no surprise as I already explained what would happen. It would have been nice to just put the code and let you figure out which one's faster and by how much.
 
